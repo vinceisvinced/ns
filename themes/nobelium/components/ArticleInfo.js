@@ -25,7 +25,7 @@ export const ArticleInfo = (props) => {
                                 alt={siteConfig('AUTHOR')}
                                 width={24}
                                 height={24}
-                                src={`https://github.com/user-attachments/assets/58a0f18f-a803-433b-8726-865f9722e618`}
+                                src={`https://drive.google.com/file/d/1ShT0SD68zy0-wCI7LOcgIraTE_4ejjbh/view?usp=sharing`}
                                 className="rounded-full"
                             />
                             <p className="ml-2 md:block">{siteConfig('AUTHOR')}</p>
@@ -42,11 +42,6 @@ export const ArticleInfo = (props) => {
                             ))}
                         </div>
                     )}
-                    <span className="hidden busuanzi_container_page_pv mr-2">
-                        <i className='mr-1 fas fa-eye' />
-                        &nbsp;
-                        <span className="mr-2 busuanzi_value_page_pv" />
-                    </span>
                 </nav>
             </>}
 

@@ -58,7 +58,6 @@ export const MenuItemCollapse = props => {
               )}
               {link?.name}
             </span>
-            <i className='px-2 fa fa-plus text-gray-400'></i>
           </div>
         )}
       </div>
